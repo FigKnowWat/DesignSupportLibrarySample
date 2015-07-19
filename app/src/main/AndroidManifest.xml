@@ -20,6 +20,10 @@
         <activity
             android:name=".InputTextActivity"
             android:label="@string/app_name" />
+
+        <activity
+            android:name=".FloatingActionButtonActivity"
+            android:label="@string/app_name" />
     </application>
 
 </manifest>

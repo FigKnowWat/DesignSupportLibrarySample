@@ -42,6 +42,8 @@ public class InputTextActivity extends AppCompatActivity {
                 int id = menuItem.getItemId();
                 switch (id) {
                     case R.id.navigation_item_floating_button:
+                        startActivity(new Intent().setClass(InputTextActivity.this, FloatingActionButtonActivity.class));
+                        InputTextActivity.this.finish();
                         break;
 
                     case R.id.navigation_item_main:
