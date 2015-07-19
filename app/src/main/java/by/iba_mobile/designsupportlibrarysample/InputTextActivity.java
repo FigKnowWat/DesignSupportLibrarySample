@@ -1,26 +1,26 @@
 package by.iba_mobile.designsupportlibrarysample;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarActivity;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-
-public class MainActivity extends AppCompatActivity {
-
+/**
+ * Created by Alex on 19.07.2015.
+ */
+public class InputTextActivity extends AppCompatActivity {
     DrawerLayout drawerLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_input_text);
         setupNavigationView();
         setupToolbar();
     }
@@ -44,9 +44,9 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.navigation_item_floating_button:
                         break;
 
-                    case R.id.navigation_item_inputtext:
-                        startActivity(new Intent().setClass(MainActivity.this, InputTextActivity.class));
-                        MainActivity.this.finish();
+                    case R.id.navigation_item_main:
+                        startActivity(new Intent().setClass(InputTextActivity.this, MainActivity.class));
+                        InputTextActivity.this.finish();
                         break;
 
                     case R.id.navigation_item_tabs:

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hmkcode.mongoz.MainActivity">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/navigation_item_main"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Main screen" />
+        <item
+            android:id="@+id/navigation_item_floating_button"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/floating_action_button_and_snackbar" />
+        <item
+            android:id="@+id/navigation_item_tabs"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/tabs" />
+
+        <item
+            android:id="@+id/navigation_item_inputtext"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/inputtext" />
+    </group>
+
+</menu>
