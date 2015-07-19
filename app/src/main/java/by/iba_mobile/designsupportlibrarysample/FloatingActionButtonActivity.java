@@ -74,7 +74,9 @@ public class FloatingActionButtonActivity extends AppCompatActivity {
                         FloatingActionButtonActivity.this.finish();
                         break;
 
-                    case R.id.navigation_item_tabs:
+                    case R.id.navigation_item_super_puper_view:
+                        startActivity(new Intent().setClass(FloatingActionButtonActivity.this, SuperPuperActivity.class));
+                        FloatingActionButtonActivity.this.finish();
                         break;
                 }
                 return false;

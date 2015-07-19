@@ -13,10 +13,6 @@
             android:id="@+id/navigation_item_floating_button"
             android:icon="@mipmap/ic_launcher"
             android:title="@string/floating_action_button_and_snackbar" />
-        <item
-            android:id="@+id/navigation_item_tabs"
-            android:icon="@mipmap/ic_launcher"
-            android:title="@string/tabs" />
 
         <item
             android:id="@+id/navigation_item_inputtext"

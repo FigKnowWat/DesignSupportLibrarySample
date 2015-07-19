@@ -51,7 +51,9 @@ public class InputTextActivity extends AppCompatActivity {
                         InputTextActivity.this.finish();
                         break;
 
-                    case R.id.navigation_item_tabs:
+                    case R.id.navigation_item_super_puper_view:
+                        startActivity(new Intent().setClass(InputTextActivity.this, SuperPuperActivity.class));
+                        InputTextActivity.this.finish();
                         break;
                 }
                 return false;
