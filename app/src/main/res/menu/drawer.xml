@@ -22,6 +22,11 @@
             android:id="@+id/navigation_item_inputtext"
             android:icon="@mipmap/ic_launcher"
             android:title="@string/inputtext" />
+
+        <item
+            android:id="@+id/navigation_item_super_puper_view"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Super-Puper view" />
     </group>
 
 </menu>

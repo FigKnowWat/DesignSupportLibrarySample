@@ -6,11 +6,10 @@
     android:background="@color/layout_background"
     android:fitsSystemWindows="true">
 
-    <RelativeLayout
+    <android.support.design.widget.CoordinatorLayout
         android:id="@+id/rootLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -22,16 +21,14 @@
             android:id="@+id/fabBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginBottom="20dp"
-            android:layout_marginRight="20dp"
-            app:theme="@style/FloatingActionButtonStyle"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="0.1dp"
+            android:layout_marginRight="0.1dp"
             android:src="@drawable/ic_action_location_found"
             app:borderWidth="0dp"
-            app:fabSize="normal" />
-
-    </RelativeLayout>
+            app:fabSize="normal"
+            app:theme="@style/FloatingActionButtonStyle" />
+    </android.support.design.widget.CoordinatorLayout>
 
     <android.support.design.widget.NavigationView
         android:id="@+id/navigation_view"
